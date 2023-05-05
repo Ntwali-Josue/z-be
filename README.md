@@ -15,18 +15,16 @@
   - Create file called `.env`
   - Open `.env` and initialize the following environment variables:
     ```ruby
-      NODE_ENV=
-      PORT=
-      PRODUCTION_ORIGIN=
-      DEVELOPMENT_ORIGIN=
-      DEV_DATABASE_URL=
-      FRONTEND_HOST=
-
-      JWT_SECRET= # JSON WEB TOKEN SECRET WHICH WILL BE USED TO DECODE TOKENS. Here you can use a rondom string.
-
-      EMAIL_SENDER= # Email that will be used to the emails.
+        NODE_ENV= 
+        PORT= 
+        PRODUCTION_ORIGIN= 
+        DEVELOPMENT_ORIGIN=
+        DEV_DATABASE_URL= 
+        FRONTEND_HOST=
+        EMAIL_SENDER= 
+        JWT_SECRET= 
     ```
-  - Then run `npm install` or `yarn install` to install all packages.
+  - Then run `npm install` to install all packages.
   - If packages are installed successfully, then run `npm run db:migrate` to create all tables.
   - And the run `npm run db:seed` insert built In Users.
   - Finaly run `npm run dev` to start the server.
@@ -34,7 +32,7 @@
 ### Usage
   Now you can use any API development tool like [Postman](https://www.postman.com/) to test the Endpoints.
 
-  NOTE: The server will be running on port `7890` if you din't specify it in `.env` file as mentioned above. Also, the endpoints are secured with SOP(Same origin policy).
+  NOTE: The server will be running on port `5000` if you din't specify it in `.env` file as mentioned above. Also, the endpoints are secured with SOP(Same origin policy).
 ###
 #### Auth
 | Endpoint                            | Methods   | Functionality             |
@@ -65,12 +63,9 @@ The following endpoints are only available for a **moderator** or **Admin** |
 | /verify-account/:request_id         | POST       | Review Account Verification Requests |
 
 
-### Deployment
-The Appp is Hosted On Heroku
-
 ## Authors
 
-👤 **Rukundo Eric**
+👤 **KARANGWA Ntwali Josue**
 
 - GitHub: [@githubhandle](https://github.com/Ntwali-Josue)
 - Twitter: [@twitterhandle](https://twitter.com/JosueNtwali)
