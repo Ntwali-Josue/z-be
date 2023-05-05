@@ -1,5 +1,5 @@
 {
-  "name": "irembo_zCOMPANY_backend",
+  "name": "z-be",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rukundoeric/irembo_ZCOMPANY_backend.git"
+    "url": "https://github.com/Ntwali-Josue/z-be"
   },
-  "author": "Rukundo eric",
+  "author": "Ntwali Josue",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rukundoeric/irembo_ZCOMPANY_backend/issues"
+    "url": "https://github.com/Ntwali-Josue/z-be/issues"
   },
-  "homepage": "https://github.com/rukundoeric/irembo_ZCOMPANY_backend#readme",
+  "homepage": "https://github.com/Ntwali-Josue/z-be#readme",
   "dependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
