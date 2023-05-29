@@ -9,8 +9,7 @@
     "dev": "nodemon --exec babel-node src/index.js",
     "db:migrate": "npx sequelize db:migrate",
     "db:migrate:reset": "npx sequelize db:migrate:undo:all",
-    "db:seed": "npx sequelize db:seed:all",
-    "heroku-postbuild": "npm install --production"
+    "db:seed": "npx sequelize db:seed:all"
   },
   "engines": {
     "npm": "7.11.1",

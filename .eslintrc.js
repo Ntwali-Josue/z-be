@@ -23,10 +23,11 @@ module.exports = {
       requireReturnDescription: true
     }],
     'jsx-a11y/anchor-is-valid': 'off',
+    'linebreak-style': 0,
   },
   parser: '@babel/eslint-parser',
   parserOptions: {
     sourceType: 'module',
     allowImportExportEverywhere: true
-  }
+  },
 };
